@@ -1,0 +1,6 @@
+# This file is used to specify the version of the Rust toolchain that 
+# should be used for your project.
+[toolchain]
+channel = "1.78"
+targets = ["thumbv6m-none-eabi"]
+components = ["rust-src", "rustfmt", "llvm-tools", "clippy"]
